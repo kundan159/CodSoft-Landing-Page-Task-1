@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="wave">
+            <img src="./assets/43.png" alt="" />
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#"><u>Home</u></a></li>
+                <li><a href="#"><u>Items</u></a></li>
+                <li><a href="#"><u>Types</u></a></li>
+                <li><a href="#"><u>Contact</u></a></li>
+                <li><a href="#"><u>More</u></a></li>
+            </ul>
+            <img src="./assets/31.png" alt="" />
+        </nav>
+
+        <div class="main-content">
+            <div class="image-pista">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./assets/32.png" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/33.png" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/34.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-text">
+                <h1>The BreadBakery</h1>
+                <p>
+                    Breads are rich in complex carbohydrates. Carbohydrates are an important part of our<br>diet as they provide us with energy. Our <br> bread contains various B vitamins, including Thiamin (Vitamin B1) and Niacin (Vitamin B3) which are
+                    essential for releasing<br>energy from food.
+                </p>
+                <button><b><i>Order Now</i></b></button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/36.png" alt="" />
+                </div>
+                <div class="inner-box">
+                    <h3>100% Organic</h3>
+                    <p>Natural & Pure.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/35.png" alt="" />
+                </div>
+                <div class="inner-box">
+                    <h3>Easy to afford</h3>
+                    <p>Not Much Expencive.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/37.png" alt="" />
+                </div>
+                <div class="inner-box">
+                    <h3>Organic</h3>
+                    <p>Healthly 100%.</p>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
